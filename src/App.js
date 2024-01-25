@@ -1,10 +1,14 @@
 import './index.css'
 import NavBar from '../src/view/components/NavBar'
+import ContactLine from './view/components/ContactLine';
+import Footer from './view/components/Footer';
 
 function App() {
   return (
-    <div className='flex items-center justify-center'>
+    <div>
+      <ContactLine/>
       <NavBar/>
+      <Footer/>
     </div>
   );
 }
