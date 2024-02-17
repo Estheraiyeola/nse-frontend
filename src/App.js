@@ -1,3 +1,4 @@
+import Home from './view/pages/home/home'
 import React from "react";
 import "./index.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -11,6 +12,7 @@ function App() {
     <Router>
       <div>
         <Routes>
+          <Route path='/home' element={<Home/>}/>
           <Route path="/" element={<ContactLine />} />
 
           <Route path="/login" element={<LoginPage />} />
