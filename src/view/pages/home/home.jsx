@@ -1,9 +1,14 @@
 import React from 'react'
+import NavBar from '../../components/NavBar'
+import ContactLine from '../../components/ContactLine'
+import SimplSlider from '../../components/SimplSlider'
 
 const home = () => {
   return (
     <div className=''>
-      Hello
+      <ContactLine/>
+      <NavBar/>
+      <SimplSlider/>
     </div>
   )
 }
