@@ -105,13 +105,13 @@ function LoginPage() {
               </div>
               <div className="log-form-group extra-links mt-4">
                 <a
-                  href="#"
+                  href="/forgot-password"
                   className="text-blue-500 hover:text-blue-700 mr-2">
                   Lost Password?
                 </a>{" "}
                 |
                 <a
-                  href="#"
+                  href="/"
                   className="text-blue-500 hover:text-blue-700 ml-2">
                   Register
                 </a>
